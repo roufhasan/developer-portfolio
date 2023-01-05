@@ -165,3 +165,48 @@ tbody tr td {
   margin-top: 50px;
   text-align: center;
 }
+
+/* Contact Styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 140px;
+}
+.contact p {
+  max-width: 562px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+.contact a {
+  text-decoration: none;
+}
+a > img {
+  padding-right: 24px;
+}
+.contact .section-title {
+  text-align: left;
+  color: #181818;
+}
+.right-side {
+  margin-bottom: 28px;
+}
+.contact input,
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  height: 100%;
+  padding: 18px 30px;
+  display: block;
+  width: 100%;
+}
+input {
+  height: 64px;
+}
+textarea {
+  height: 180px;
+}
+form .btn-primary {
+  width: 150px;
+}
